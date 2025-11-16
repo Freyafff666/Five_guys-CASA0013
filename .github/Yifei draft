@@ -1,1 +1,139 @@
+# create_quarto_report.py
+import os
+from datetime import datetime
 
+def create_quarto_template():
+    
+    template = f'''---
+title: "Airbnb"
+author: "Freyafff666"
+date: "{datetime.now().strftime('%Y-%m-%d')}"
+format: 
+  html:
+    toc: true
+    toc-depth: 3
+    code-fold: true
+execute:
+  warning: false
+  message: false
+
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import geopandas as gpd
+from matplotlib import rcParams
+
+
+
+
+
+
+
+
+
+
+
+Based on (https://centreforlondon.org/blog/generation-rent/) Sylvia Barrett's article "How London's housing market is affecting Generation Rent," I can assess whether Airbnb is "out of control" in London from the perspective of the housing market. Here is the analysis:
+
+Assessment: Airbnb Has Indeed Exacerbated London's "Out-of-Control" Housing Situation
+Core Argument: Against the backdrop of an already extremely tight housing market, the expansion of Airbnb does constitute an "out-of-control" threat, particularly in specific areas and property types.
+
+Supporting Evidence:
+From the Perspective of Housing Supply:
+
+The article notes that the number of private renters in London now exceeds those with mortgages.
+
+The average rent is as high as £1,516 per month and continues to rise.
+
+In this context, any conversion of long-term rental properties into short-term rentals exacerbates supply constraints.
+
+From the Perspective of Rental Affordability:
+
+London renters spend 31.5% of their income on rent, a four-year high.
+
+Young renters (average age 32) face the dual pressures of stagnant wages and rising rents.
+
+By reducing the supply of long-term rentals, Airbnb indirectly drives up rents for the remaining properties.
+
+From the Perspective of Market Distortion:
+
+Landlords have a strong economic incentive to convert properties to Airbnb: £1,516 monthly rent vs. potentially higher Airbnb income.
+
+This arbitrage opportunity constitutes a serious market distortion in the midst of a housing crisis.
+
+Aspects Requiring Qualification:
+However, the article also implies the need for more nuanced analysis:
+
+Geographical Variation: Airbnb's impact likely varies significantly across different areas of London.
+
+Property Types: The effects are likely concentrated in specific property types (e.g., central London apartments).
+
+Scale Issues: A distinction must be made between occasional rentals by individuals and large-scale operations by professional landlords.
+
+Conclusion:
+Based on the evidence in this article, I believe that in specific areas and market segments of London, Airbnb can indeed be considered "out of control"—not necessarily in terms of absolute numbers, but in terms of the disproportionate negative impact Airbnb activities have on long-term rental supply and rent levels within London's already fragile housing market.
+
+This "out of control" status is reflected in:
+
+Exacerbating supply constraints during a housing crisis
+
+Driving up already unaffordable rental levels
+
+Providing landlords with channels to circumvent rental market regulations
+
+Therefore, the opposition's claim about Airbnb being "out of control" has a factual basis in political rhetoric, particularly regarding housing affordability—the issue voters care about most.
+
+
+
+
+Based on the news article (https://centreforlondon.org/news/housing-costs-inequality/)  "London housing costs fuelling inequality," I can assess whether Airbnb is "out of control" in London from the perspective of housing inequality and affordability.
+
+Assessment: Airbnb is Accelerating London's Housing Inequality Crisis
+
+Core Argument: Within London's deteriorating housing equality landscape, Airbnb activities do represent an "out of control" element that exacerbates the fundamental problems identified in the report.
+
+ Supporting Evidence:
+
+1. From Private Rental Market Deterioration
+- The report shows private renters experienced a 28% decline in weekly household income after housing costs (inner London)
+- Airbnb reduces long-term rental supply, directly worsening this trend
+- Professional landlords converting properties to short-term rentals diminish private rental stock, driving up rents for remaining properties
+
+2. From Suburbanization of Poverty Perspective
+- The report finds low-income households are migrating from inner to outer London, with poverty rates rising in peripheral areas
+- Airbnb's impact is most concentrated in inner London, accelerating gentrification processes
+- Conversion of inner-city properties to Airbnb reduces affordable housing options for low-income families, forcing outward migration
+
+3. From Wealth Inequality Angle
+- The report indicates the wealthiest 20% saw property wealth grow by 25% (+£130,000)
+- Airbnb creates new wealth accumulation opportunities for property owners while **excluding renters**
+- This widens the wealth gap between "property haves" and "property have-nots"
+
+4. From Housing Supply Crisis View
+- The report mentions 260,000 households on waiting lists for social housing** with construction failing to meet demand
+- Every property converted to Airbnb represents a net loss to the long-term rental market
+- In a severe supply shortage, the opportunity cost of such conversions is extremely high
+
+Important Qualifications:
+
+However, a more nuanced analysis is required:
+
+- Geographical Variation**: Airbnb's impact is concentrated in the inner London boroughs mentioned in the report (Westminster, Camden, etc.)
+- Scale Considerations**: Distinction needed between occasional individual rentals and systematic large-scale operations
+- Causal Relationships**: Airbnb is one factor exacerbating inequality, not the sole cause
+
+Conclusion:
+
+Based on the evidence in this report, I believe Airbnb can indeed be considered "out of control" in specific areas and market segments of London**—not necessarily in absolute scale, but in terms of its disproportionate negative impact on London's already fragile housing equality.
+
+This "out of control" status manifests in:
+1. Worsening private rental market supply constraints
+2. Accelerating inner-city gentrification and poverty suburbanization
+3. Widening the wealth gap between property owners and renters
+4. Creating additional market distortions within a housing crisis context
+
+Therefore, the opposition's claim about Airbnb being "out of control" has substantive policy merit, particularly regarding housing inequality—a key issue identified in the report.
+
+Policy Implications**: Any regulatory measures targeting Airbnb must consider their impact on housing equality, particularly in protecting private rental market supply and preventing accelerated gentrificatio
